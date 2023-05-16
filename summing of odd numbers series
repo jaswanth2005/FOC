@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+  int limit,i,sum=0;
+  printf("enter the limit of the odd number series: ");
+  scanf("%d",&limit);
+  printf("odd number series");
+  for(i=1;i<=limit;i+=2){
+    printf("%d",i);
+    sum +=i;
+    
+  }
+  printf("\nsum of odd number series upto %d is %d\n",limit,sum);
+  return 0;
+}
